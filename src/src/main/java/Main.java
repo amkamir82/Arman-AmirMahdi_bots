@@ -17,7 +17,7 @@ public class Main {
     private static void init() {
         new SpecialPersonMessages(122115491, new String[]{
                 "باز تو گه خوردی؟",
-                "بس کن احسان خیلی کس میگی؟",
+                "بس کن احسان خیلی کس میگی",
                 "اه کس نگو اینقد",
                 "برو کونتو بده اوبنه",
                 "برو خایه‌مال",

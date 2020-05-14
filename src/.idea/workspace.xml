@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61afa3dd-ef1e-47f3-b812-11d7397383f5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MyBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MyBot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MyBot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MyBot.class" afterDir="false" />
-    </list>
+    <list default="true" id="61afa3dd-ef1e-47f3-b812-11d7397383f5" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
