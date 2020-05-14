@@ -1,19 +1,16 @@
 import ReplyingMessages.ReplyingMessage;
-import org.telegram.telegrambots.api.methods.send.SendMessage;
 import org.telegram.telegrambots.api.objects.Update;
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
 import org.telegram.telegrambots.exceptions.TelegramApiException;
 
 import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 public class MyBot extends TelegramLongPollingBot {
-    private static Matcher matcher;
-
     @Override
     public String getBotToken() {
         return "1047236620:AAHmK47QnBdLwOXMlfY9AfcwPuPUEWIGNd4";
     }
+
     @Override
     public String getBotUsername() {
         return "@A_M_K_bot";
@@ -21,8 +18,8 @@ public class MyBot extends TelegramLongPollingBot {
 
     public void onUpdateReceived(Update update) {
         System.out.println(update);
-        for(ReplyingMessage replyingMessage : ReplyingMessage.getAllReplyingMessages()) {
-            if(replyingMessage.accept(update)) {
+        for (ReplyingMessage replyingMessage : ReplyingMessage.getAllReplyingMessages()) {
+            if (replyingMessage.accept(update)) {
                 try {
                     execute(replyingMessage.reply(update));
                 } catch (TelegramApiException e) {

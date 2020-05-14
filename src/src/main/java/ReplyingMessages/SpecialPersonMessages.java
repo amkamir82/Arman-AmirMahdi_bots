@@ -17,7 +17,7 @@ public class SpecialPersonMessages extends ReplyingMessage {
 
     @Override
     public SendMessage reply(Update update) {
-        if(update.getMessage().getContact().getUserID() != userID)
+        if (update.getMessage().getContact().getUserID() != userID)
             return null;
         return SpecialPersonMessages.getSendMessage(update,
                 replyingMessages[random.nextInt(replyingMessages.length)]);

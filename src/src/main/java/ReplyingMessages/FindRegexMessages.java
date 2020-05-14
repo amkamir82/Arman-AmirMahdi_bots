@@ -18,7 +18,7 @@ public class FindRegexMessages extends ReplyingMessage {
     @Override
     public SendMessage reply(Update update) {
         Matcher matcher = getMatcher(update.getMessage().getText());
-        if(!matcher.find())
+        if (!matcher.find())
             return null;
         return FindRegexMessages.getSendMessage(update, replyMessage);
     }

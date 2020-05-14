@@ -7,7 +7,7 @@ import org.telegram.telegrambots.api.objects.Update;
 import java.util.ArrayList;
 
 public abstract class ReplyingMessage {
-    private static ArrayList<ReplyingMessage> allReplyingMessages = new ArrayList<ReplyingMessage>();
+    private static final ArrayList<ReplyingMessage> allReplyingMessages = new ArrayList<ReplyingMessage>();
 
     public ReplyingMessage() {
         allReplyingMessages.add(this);

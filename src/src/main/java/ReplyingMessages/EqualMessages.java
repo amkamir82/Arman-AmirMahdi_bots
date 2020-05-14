@@ -15,7 +15,7 @@ public class EqualMessages extends ReplyingMessage {
     @Override
     public SendMessage reply(Update update) {
         String text = update.getMessage().getText();
-        if(!this.text.equalsIgnoreCase(text))
+        if (!this.text.equalsIgnoreCase(text))
             return null;
         return EqualMessages.getSendMessage(update, this.replyMessage);
     }
