@@ -38,7 +38,7 @@ public class Main {
 
         new FindRegexMessages("کیرم", "از داشته‌هات حرف بزن");
         new FindRegexMessages("(a?)(آیا امیرمهدی).+", "گاخارشی؟");
-        new FindRegexMessages("(f?)(آيا).+(گا میخوره)", "خیلی");
+        new FindRegexMessages("آیا" + " .+ " + "گا میخوره", "خیلی");
         new FindRegexMessages("بی‌ناموس", "نگو ناموس. غنچه میکنی هنوز اذان نگفتن");
     }
 }
