@@ -3,8 +3,6 @@ import org.telegram.telegrambots.api.objects.Update;
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
 import org.telegram.telegrambots.exceptions.TelegramApiException;
 
-import java.util.regex.Matcher;
-
 public class MyBot extends TelegramLongPollingBot {
     @Override
     public String getBotToken() {

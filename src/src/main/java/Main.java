@@ -35,10 +35,10 @@ public class Main {
         new EqualMessages("jvb ehsan bede", "kos nagoo ehsan kiri");
         new EqualMessages("jvb jafar bede", "kos mige jafar vlsh kon");
         new EqualMessages("سلام", "کیر");
-
         new FindRegexMessages("کیرم", "از داشته‌هات حرف بزن");
         new FindRegexMessages("(a?)(آیا امیرمهدی).+", "گاخارشی؟");
         new FindRegexMessages("(f?)(آيا).+(گا میخوره)", "خیلی");
         new FindRegexMessages("بی‌ناموس", "نگو ناموس. غنچه میکنی هنوز اذان نگفتن");
+        new FindRegexMessages("@Ehsan_M_1380", "این کونیو تگ نکنین");
     }
 }
