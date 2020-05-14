@@ -15,6 +15,20 @@ public class Main {
     }
 
     private static void init() {
+        new SpecialPersonMessages(122115491, new String[]{
+                "باز تو گه خوردی؟",
+                "بس کن احسان خیلی کس میگی؟",
+                "اه کس نگو اینقد",
+                "برو کونتو بده اوبنه",
+                "برو خایه‌مال",
+                "کیر ملکه تو حلقومت",
+                "کیر به حقانیتت",
+                "این یک دفعه ر نمیرینم بهت راحت باش",
+                "کسی سگشو گم نکرده؟",
+                "زشته با دهن روزه اینقد گه‌خوری",
+
+        });
+
         new EqualMessages("amirmahdi", "bale");
         new EqualMessages("salam", "salam o kir kharrr");
         new EqualMessages("khoobi", "ga khar mani?");
@@ -26,15 +40,5 @@ public class Main {
         new FindRegexMessages("(a?)(آیا امیرمهدی).+", "گاخارشی؟");
         new FindRegexMessages("(f?)(آيا).+(گا میخوره)", "خیلی");
         new FindRegexMessages("بی‌ناموس", "نگو ناموس. غنچه میکنی هنوز اذان نگفتن");
-
-        new SpecialPersonMessages(122115491, new String[]{
-                "باز تو گه خوردی؟",
-                "بس کن احسان خیلی کس میگی؟",
-                "اه کس نگو اینقد",
-                "برو کونتو بده اوبنه",
-                "برو خایه‌مال",
-                "کیر ملکه تو حلقومت",
-                "کیر به حقانیتت"
-        });
     }
 }
