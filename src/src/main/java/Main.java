@@ -30,20 +30,25 @@ public class Main {
 
         });
 
-        new EqualMessages("amirmahdi", "bale");
-        new EqualMessages("salam", "salam o kir kharrr");
-        new EqualMessages("khoobi", "ga khar mani?");
+        new EqualMessages("amirmahdi", "بله");
+        new EqualMessages("امیرمهدی", "بله");
+        new EqualMessages("salam", "کیرخر");
         new EqualMessages("jvb ehsan bede", "kos nagoo ehsan kiri");
+        new EqualMessages("jvb ehsan bede", "kos nagoo ehsan kiri");
+        new EqualMessages("جواب احسان بده", "ولش کن، کلا عادت داره کس بگه");
         new EqualMessages("سلام", "کیرخر");
         new EqualMessages("کیر", "از داشته‌هات حرف بزن");
         new FindRegexMessages("(a?)(آیا امیرمهدی).+", "گاخارشی؟");
         new FindRegexMessages("آیا" + " .+ " + "گا میخوره", "خیلی");
+        new FindRegexMessages("بی‌ ناموس", "نگو ناموس. غنچه میکنی هنوز اذان نگفتن");
+        new FindRegexMessages("بیناموس", "نگو ناموس. غنچه میکنی هنوز اذان نگفتن");
         new FindRegexMessages("بی‌ناموس", "نگو ناموس. غنچه میکنی هنوز اذان نگفتن");
         new FindRegexMessages("@Ehsan_M_1380", "این کونیو تگ نکنین");
         new FindRegexMessages("احسان", "اسم این کیری رو جلو من نیارین");
-        new FindRegexMessages("کس", "میگی کس دهنت آب نمیوفته کیری؟");
-        new FindRegexMessages("کص", "میگی کص دهنت آب نمیوفته کیری؟");
+        new FindRegexMessages(" کس ", "میگی کس دهنت آب نمیوفته کیری؟");
+        new FindRegexMessages(" کص ", "میگی کص دهنت آب نمیوفته کیری؟");
         new FindRegexMessages("کیرم", "همون 2 سانتی رو میگی؟");
-
+        new FindRegexMessages("@masbri", "این کونیو تگ نکنین");
+        new FindRegexMessages("مصبری", "اسم این کیری رو جلو من نیارین");
     }
 }
