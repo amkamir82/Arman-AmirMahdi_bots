@@ -1,2 +1,7 @@
-# Arman-AmirMahdi_bots
-creating telegrams bots
+Telegeram Bots
+
+AmirMahdi Kousheshi
+
+Arman Babaei
+
+Mahdi Jafari
