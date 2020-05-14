@@ -41,9 +41,10 @@ public class Main {
         new FindRegexMessages("بی‌ناموس", "نگو ناموس. غنچه میکنی هنوز اذان نگفتن");
         new FindRegexMessages("@Ehsan_M_1380", "این کونیو تگ نکنین");
         new FindRegexMessages("احسان", "اسم این کیری رو جلو من نیارین");
-        new FindRegexMessages("کس", "میگی کس دهنت آب نمیوفته کیری؟");
-        new FindRegexMessages("کص", "میگی کص دهنت آب نمیوفته کیری؟");
+        new FindRegexMessages(" کس ", "میگی کس دهنت آب نمیوفته کیری؟");
+        new FindRegexMessages(" کص ", "میگی کص دهنت آب نمیوفته کیری؟");
         new FindRegexMessages("کیرم", "همون 2 سانتی رو میگی؟");
-
+        new FindRegexMessages("@masbri", "این کونیو تگ نکنین");
+        new FindRegexMessages("مصبری", "اسم این کیری رو جلو من نیارین");
     }
 }
