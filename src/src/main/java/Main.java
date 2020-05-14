@@ -33,7 +33,6 @@ public class Main {
         new EqualMessages("salam", "salam o kir kharrr");
         new EqualMessages("khoobi", "ga khar mani?");
         new EqualMessages("jvb ehsan bede", "kos nagoo ehsan kiri");
-        new EqualMessages("jvb jafar bede", "kos mige jafar vlsh kon");
         new EqualMessages("سلام", "کیر");
         new FindRegexMessages("کیرم", "از داشته‌هات حرف بزن");
         new FindRegexMessages("(a?)(آیا امیرمهدی).+", "گاخارشی؟");
