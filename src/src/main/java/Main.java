@@ -15,29 +15,16 @@ public class Main {
     }
 
     private static void init() {
-        new SpecialPersonMessages(122115491, new String[]{
-                "باز تو گه خوردی؟",
-                "بس کن احسان خیلی کس میگی",
-                "اه کس نگو اینقد",
-                "برو کونتو بده اوبنه",
-                "برو خایه‌مال",
-                "کیر ملکه تو حلقومت",
-                "کیر به حقانیتت",
-                "این یک دفعه ر نمیرینم بهت راحت باش",
-                "کسی سگشو گم نکرده؟",
-                "زشته با دهن روزه اینقد گه‌خوری",
-                "ینی همیشه ی خدا تو باید کس بگی",
-
-        });
-
-        new EqualMessages("amirmahdi", "بله");
-        new EqualMessages("امیرمهدی", "بله");
+        new EqualMessages("کسکش", "بشین سرش کیسه بکش");
+        new EqualMessages("کس کش", "بشین سرش کیسه بکش");
+        new EqualMessages("کصکش", "بشین سرش کیسه بکش");
+        new EqualMessages("کص کش", "بشین سرش کیسه بکش");
         new EqualMessages("salam", "کیرخر");
-        new EqualMessages("jvb ehsan bede", "kos nagoo ehsan kiri");
         new EqualMessages("jvb ehsan bede", "kos nagoo ehsan kiri");
         new EqualMessages("جواب احسان بده", "ولش کن، کلا عادت داره کس بگه");
         new EqualMessages("سلام", "کیرخر");
         new EqualMessages("کیر", "از داشته‌هات حرف بزن");
+        new EqualMessages("کیری", "سرش بمیری");
         new FindRegexMessages("(a?)(آیا امیرمهدی).+", "گاخارشی؟");
         new FindRegexMessages("آیا" + " .+ " + "گا میخوره", "خیلی");
         new FindRegexMessages("بی‌ ناموس", "نگو ناموس. غنچه میکنی هنوز اذان نگفتن");
@@ -47,7 +34,11 @@ public class Main {
         new FindRegexMessages("احسان", "اسم این کیری رو جلو من نیارین");
         new FindRegexMessages(" کس ", "میگی کس دهنت آب نمیوفته کیری؟");
         new FindRegexMessages(" کص ", "میگی کص دهنت آب نمیوفته کیری؟");
+        new FindRegexMessages("کس ", "میگی کس دهنت آب نمیوفته کیری؟");
+        new FindRegexMessages("کص ", "میگی کص دهنت آب نمیوفته کیری؟");
         new FindRegexMessages("کیرم", "همون 2 سانتی رو میگی؟");
+        new FindRegexMessages("کیری", "سرش بمیری");
+        new FindRegexMessages("کون", "سوراخ لا پاتو ببین بعد بگو کون کله کیری");
         new FindRegexMessages("@masbri", "این کونیو تگ نکنین");
         new FindRegexMessages("مصبری", "اسم این کیری رو جلو من نیارین");
     }
